@@ -1,7 +1,3 @@
-/*html {
-	font-family: Arial, sans-serif;
-}*/
-
 .top-bar {
 	position: fixed;
 	width: 100%;
@@ -107,16 +103,12 @@
 
 /* Static Site */
 #page-4.page {
-	background-color: rgba(253,238,170,1); /* yellow */
-	background-color: #777777;
 	background-color: rgba(227,134,143,0.33); /* pink */
 }
 
 /* Contact */
 #page-5.page {
-	background-color: rgba(198,203,204,1); /* light gray */
 	background-color: #777777;
-	/*background-color: #40827E;*/
 }
 
 .footer-left-indent {
@@ -187,7 +179,6 @@
 
 .project-specs ul {
 	list-style-type: none;
-	/*text-decoration: none;*/
 }
 
 .project-specs ul li {
@@ -250,12 +241,10 @@
 
 .footer-teal-link a {
   color: rgba(28, 76, 73, 0.93);
- /* color: white;*/
 }
 
 .footer-teal-link a:hover {
   color: #e6e6e6;
-  /*color: #40827E;*/
   text-decoration: none;
 }
 
@@ -264,15 +253,6 @@
     color: white;
 }
 
-#projects
-
-#ecommerce-app
-
-#saas-app
-
-#static-site
-
-#contact
 
 /* MEDIA QUERIES */
 
