@@ -1,0 +1,460 @@
+/*html {
+	font-family: Arial, sans-serif;
+}*/
+
+.top-bar {
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+
+.top-bar a {
+  color: #40827E;
+}
+
+.top-bar a:hover {
+  color: #777777;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+	border-color: #40827E transparent transparent;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow:hover > a::after {
+	border-color: #777777 transparent transparent;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+	content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: #40827E transparent transparent;
+    border-top-style: solid;
+    position: absolute;
+    top: 0.825rem;
+    right: 5px;
+	/*// foundation styles
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: transparent transparent transparent #2199e8;
+    border-left-style: solid; }*/
+}
+
+/*.top-bar-section .has-dropdown > a:after {
+    border-color: #40827E rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}*/
+
+.is-down-arrow {
+	color: #40827E;
+}
+
+.dropdown.menu .submenu {
+	background-color: #e6e6e6;
+	border: 1px solid #e6e6e6; /* standard #cacaca */
+	min-width: 180px;
+}
+
+.site-name {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#main-content {
+	padding-top: 56px;
+}
+
+.page {
+	height: 800px;
+}
+
+.page-anchor {
+	height: 56px;
+}
+
+.page-container {
+	padding-top: 11%;
+	/*padding-bottom: 0%;*/
+}
+
+.footer-container {
+	padding-top: 15%;
+	/*padding-bottom: 0%;*/
+}
+
+/* About */
+#page-1 {
+	background-color: black;
+	background: url('../images/philadelphia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Ecommerce App */
+#page-2.page {
+	background-color: #96DEDA;
+}
+
+/* Saas App */
+#page-3.page {
+	background-color: white;
+}
+
+/* Static Site */
+#page-4.page {
+	background-color: rgba(253,238,170,1); /* yellow */
+	background-color: #777777;
+	background-color: rgba(227,134,143,0.33); /* pink */
+}
+
+/* Contact */
+#page-5.page {
+	background-color: rgba(198,203,204,1); /* light gray */
+	background-color: #777777;
+	/*background-color: #40827E;*/
+}
+
+.footer-left-indent {
+	padding-left: 50px;
+}
+
+.footer-right-indent {
+	padding-right: 50px;
+}
+
+.footer-left-text-indent {
+	padding-left: 22px;
+}
+
+.footer-right-text-indent {
+	padding-left: 34px;
+}
+
+.footer-form-indent {
+	padding-top: 0.5rem;
+	padding-left: 34px;
+}
+
+.footer-end {
+	padding-top: 70px;
+	font-size: 0.85em;
+	margin: 0;
+}
+
+.self-img {
+	border-radius: 20%;
+	border: 5px solid white;
+}
+
+.full-width-box {
+	position: absolute;
+    top: 39%;
+    right: 0;
+    left: 0;
+	width: 100%
+	height: 250px;
+	background-color: rgba(255,255,255,0.79);
+	text-align: center;
+	z-index: 1;
+}
+
+.intro {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.same-line {
+	display: inline-block;
+}
+
+.project-img {
+	border-radius: 5px;
+	/*height: 500px;*/
+}
+
+.demo-note {
+	font-size: 0.85em;
+}
+
+/*.project-specs ul li.menu-text {
+	font-weight: normal;
+}*/
+
+.project-specs ul {
+	list-style-type: none;
+	/*text-decoration: none;*/
+}
+
+.project-specs ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+.white-text {
+	color: white;
+}
+
+.lt-gray-text {
+	color: #d7d2cc;
+}
+
+.foundation-lt-gray-text {
+	color: #e6e6e6;
+}
+
+.teal-link a {
+  color: #40827E;
+}
+
+.teal-link a:hover {
+  color: #777777;
+  text-decoration: none;
+}
+
+.startup-white-text {
+	color: white;
+}
+
+.startup-gray-text {
+  color: #777777;
+}
+
+.startup-teal-text {
+  color: #40827E;
+}
+
+.startup-aqua-text {
+  color: #50C9C3;
+}
+
+.roscoe-white-text {
+	color: white;
+}
+
+.roscoe-blue-text {
+	color: rgba(157,198,216,1);
+}
+
+.roscoe-pink-text {
+	color: rgba(227,134,143,1);
+}
+
+.roscoe-yellow-text {
+	color: rgba(253,238,170,1);
+}
+
+.footer-teal-link a {
+  color: rgba(28, 76, 73, 0.93);
+ /* color: white;*/
+}
+
+.footer-teal-link a:hover {
+  color: #e6e6e6;
+  /*color: #40827E;*/
+  text-decoration: none;
+}
+
+.button.hollow.secondary {
+    border: 1px solid white;
+    color: white;
+}
+
+#projects
+
+#ecommerce-app
+
+#saas-app
+
+#static-site
+
+#contact
+
+/* MEDIA QUERIES */
+
+/* Small screens */
+/* max-width 640px, mobile-only styles */
+@media only screen and (max-width: 40em) {
+
+	.top-bar {
+		margin-top: 42px;
+	}
+
+	#main-content {
+		padding-top: 42px;
+	}
+
+	.page {
+		height: 100%;
+		/*padding-bottom: 5%;*/
+	}
+
+	#page-5.page {
+		height: 820px;
+		/*padding-bottom: 5%;*/
+	}
+
+	.page-container {
+		padding-top: 14%;
+		padding-bottom: 14%;
+	}
+
+	.footer-container {
+		padding-top: 14%;
+		padding-bottom: 14%;
+	}
+
+	.footer-left-indent {
+		padding-left: 26px;
+		padding-right: 50px;
+	}
+
+	.footer-left-text-indent {
+		padding-left: 19px;
+	}
+
+	.footer-right-heading-indent {
+		padding-left: 8px;
+	}
+
+	.copyright-margin {
+		/*margin-top: 16px;*/
+		margin-bottom: 0;
+	}
+
+	#page-1.page {
+		height: 800px;
+	}
+
+	.project-specs {
+		padding-top: 1%;
+	}
+
+	.startup-white-text {
+		border: 1px solid white;
+	}
+
+	.bookmark-black {
+		border: 1px solid black;
+	}
+
+	.roscoe-white-text {
+		border: 1px solid white;
+	}
+
+}
+
+/* Medium screens */
+/* min-width 641px and max-width 1024px, tablet styles */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+	.page {
+		height: 100%;
+	}
+
+	#page-1.page {
+		height: 800px;
+	}
+
+	#page-5.page {
+		height: 820px;
+		/*padding-bottom: 5%;*/
+	}
+
+	.page-container {
+		padding-top: 11%;
+		padding-bottom: 11%;
+	}
+
+	.footer-container {
+		padding-top: 11%;
+		padding-bottom: 11%;
+	}
+
+	.footer-left-indent {
+		padding-left: 26px;
+		padding-right: 50px;
+	}
+
+	.footer-left-text-indent {
+		padding-left: 25px;
+	}
+
+	.footer-right-heading-indent {
+		padding-left: 0;
+	}
+
+	.copyright-margin {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.project-specs {
+		padding-top: 1%;
+	}
+
+	.startup-white-text {
+		border: 1px solid white;
+	}
+
+	.bookmark-black {
+		border: 1px solid black;
+	}
+
+	.roscoe-white-text {
+		border: 1px solid white;
+	}
+
+}
+
+/* Large screens */
+/* min-width 1025px, laptop and desktop styles */
+@media only screen and (min-width: 64.063em) {
+
+	.page-container {
+		padding-top: 6%;
+		padding-bottom: 0%;
+	}
+
+	.site-name {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.footer-right-heading-indent {
+		padding-left: 0;
+	}
+
+	.footer-end {
+		padding-top: 98px;
+	}
+
+	.footer-block {
+		height: 20%;
+		background-color: black;
+		background: url('../images/philadelphia.jpg');
+    	background-size: 100vw 100vh;
+    	background-repeat: no-repeat;
+    	background-position: center bottom;
+		z-index: 1;
+	}
+
+	.copyright-margin {
+		margin-top: 0;
+	}
+
+	.specs-list {
+		font-size: 0.938em;
+	}
+
+}
+
+/* XLarge screens */
+/* min-width 1441px, desktop styles */
+
+/* XXLarge screens */
+/* min-width 1921px, desktop styles */
