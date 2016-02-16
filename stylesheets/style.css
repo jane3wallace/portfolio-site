@@ -151,7 +151,7 @@
 	font-size: 0.85em;
 	margin: 0;
 	display: block;
-    padding-bottom: 9em;
+    padding-bottom: 0em;
 }
 
 .self-img {
@@ -299,7 +299,7 @@
 	}
 
 	#page-5.page {
-		height: 820px;
+		height: 851px;
 		/*padding-bottom: 5%;*/
 	}
 
@@ -310,7 +310,7 @@
 
 	.footer-container {
 		padding-top: 14%;
-		padding-bottom: 14%;
+		padding-bottom: 0%;
 	}
 
 	.footer-left-indent {
@@ -324,6 +324,11 @@
 
 	.footer-right-heading-indent {
 		padding-left: 8px;
+	}
+
+	.footer-end {
+		padding-top: 95px;
+		padding-bottom: 0em;
 	}
 
 	.copyright-margin {
@@ -386,7 +391,7 @@
 
 	.footer-container {
 		padding-top: 11%;
-		padding-bottom: 11%;
+		padding-bottom: 0%;
 	}
 
 	.footer-left-indent {
@@ -469,7 +474,7 @@
     	background-repeat: no-repeat;
     	background-position: center bottom;
 		z-index: 1;
-		padding-bottom: 3em;
+		padding-bottom: 11em;
     	margin-top: 6em;
     	max-width: 100vw;
 	}
